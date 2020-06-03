@@ -4,6 +4,36 @@ Your code goes below.
 
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Sharod';
+let greeting = 'HEY';
+
+multiply = (number) => {
+  x = number * x;
+}
+
+modYBy = (number) => {
+  y = y % number ;
+}
+
+opposite = (number) => {
+  z = - number;
+}
+
+makeFullName = (string) => {
+  name = name + ' ' + string;
+}
+
+yellAt = (string) => {
+  greeting = greeting + ', ' + string  + '!';
+}
+
+
+
+
+
 
 
 
